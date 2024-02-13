@@ -28,6 +28,7 @@
 ## Setup/Install
 In your python environment (tested on Linux python 3.10), run:
 ```bash
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -e .
 ```
 ## Demo / How to Use
